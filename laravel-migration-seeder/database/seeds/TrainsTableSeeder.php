@@ -14,10 +14,10 @@ class TrainsTableSeeder extends Seeder
     {
         $trains = [
             [
-                'Train_Id' -> 'T_427' ;
-                'Departure_City' -> 'Trapani' ;
-                'Arrivals_City' -> 'Messina' ;
-                'Time_Departure' -> '16:00'
+                'Train_Id' => 'T543' ,
+                'Departure_City' => 'Palermo' ,
+                'Arrivals_City' => 'Catania' ,
+                'Time_Departure' => '18:30',
             ]
         ];
 

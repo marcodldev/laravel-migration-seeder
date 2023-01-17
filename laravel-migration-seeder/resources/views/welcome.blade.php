@@ -18,8 +18,7 @@
             <tbody>
                 @foreach ($trains as $elem)
                     <tr>
-                        <th scope="row">1</th>
-                        <td>{{ $elem['id'] }}</td>
+                        <th scope="row">{{ $elem['id'] }}</th>
                         <td>{{ $elem['Train_Id'] }}</td>
                         <td>{{ $elem['Departure_City'] }}</td>
                         <td>{{ $elem['Arrivals_City'] }}</td>
