@@ -4,6 +4,9 @@
 
 @section('contenuto-main')
 
-test main
+
+@foreach ($trains as $elem)
+<h2>{{ $elem['Departure_City'] }}</h2>
+@endforeach
 
 @endsection
